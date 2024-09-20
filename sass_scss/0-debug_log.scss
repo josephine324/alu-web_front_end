@@ -1,0 +1,6 @@
+/*# sourceMappingURL=0-debug_log.css.map */
+$message: "Hello world";
+
+body{
+    @debug $message;
+}
