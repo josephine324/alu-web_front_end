@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    flex: 1 0 20%; /* grow, shrink, basis */
+    box-sizing: border-box;
+  }
+  
+  .box1 {
+    background-color: #ff0000; /* red */
+  }
+  
+  .box2 {
+    background-color: #00ff00; /* green */
+  }
+  
+  .box3 {
+    background-color: #0000ff; /* blue */
+  }
+  
+  .box4 {
+    background-color: #ffff00; /* yellow */
+  }
+  
+  .box5 {
+    background-color: #ff00ff; /* magenta */
+  }
